@@ -1,3 +1,6 @@
+import { config } from '../config/index.js';
+import * as pokemonRepository from '../repositories/pokemonRepository.js';
+
 /**
  * "mr-mime" -> "Mr Mime"
  */
@@ -180,4 +183,3 @@ export const getPokemonByType = async (
     hasPrevPage: page > 1
   };
 };
-
